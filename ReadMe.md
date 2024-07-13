@@ -1,19 +1,17 @@
-The AutoPrice class offers a comprehensive suite of capabilities for determining prices in a dynamic manner, taking into account the user's geographic location.
-
-It leverages real-time data and advanced algorithms to calculate prices bases on the user's location.
+Leverage real-time data and advanced algorithms to calculate prices bases on the user's location with Autoprice.
 
 <h1>Requirements</h1>
 Please obtain Api Key from <a href="https://www.ip2location.io/">IP2LOCATION.IO</a>
 
 <h1>Installation</h1>
-``` 
-composer require thealgoslingers/personalized-php
 
+``` 
+composer require thealgoslingers/autoprice
 ```
 
 <h1>Usage</h1>
-```
 
+```
 <?php
 require 'vendor/autoload.php';
 
@@ -33,3 +31,4 @@ $user_ip = '8.8.8.8';// ip of the user
 echo $dp->calculatePrice($user_ip);
 
 ```
+
