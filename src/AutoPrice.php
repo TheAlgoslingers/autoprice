@@ -41,7 +41,7 @@ class AutoPrice {
     public function calculatePrice($ip_address) {
         $geo_data = $this->getGeoData($ip_address);
         $country = $geo_data['country_name'];
-        $code = $geo_data['country']['currency']['code'] == '' ? '$' : $geo_data['country']['currency']['code'];
+        $code = $geo_data['country']['currency']['code'] == '' ? '' : $geo_data['country']['currency']['code'];
         
         $adjustment_factor = $this->getAdjustmentFactorForCountry($country);
         return $code . round($this->base_price * $adjustment_factor, 2);
