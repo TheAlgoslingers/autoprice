@@ -1,5 +1,5 @@
 <?php
-namespace thealgoslingers\AutoPrice;
+namespace thealgoslingers;
 /**
  * The AutoPrice class provides functionalities for calculating prices dynamically based on the user's location.
  */
