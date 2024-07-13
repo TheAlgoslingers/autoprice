@@ -1,0 +1,21 @@
+{
+    "name": "thealgoslingers/autoprice",
+    "description": "The AutoPrice class provides functionalities for calculating prices dynamically based on the user's location.",
+    "keywords": ["library", "algoslingfileanew", "currency convertor","convert currency from location"],
+    "type": "library",
+    "require-dev": {
+    "phpunit/phpunit": "^5.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "thealgoslingers"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "thealgoslingers\\": "src"
+        }
+    },
+    "require": {}
+}
