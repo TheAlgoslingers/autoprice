@@ -12,6 +12,7 @@ composer require thealgoslingers/autoprice
 <h1>Usage</h1>
 <strong>NOTE: </strong><p>Autoprice returns the (converted) currency with it's associated currency code. So it will not be necessary to manually add the currency(it's) code again at the end. For instance, "10" from USD to Ghanaian cedis, Autoprice will return "GHS15.152" instead of just "15.532".</p>
 <p>Some Api plans do not include the country's currency code. In this case, the raw figures will be returned. I.e. Amount without a currency code.</p>
+<p>See <a href="https://www.ip2location.io/pricing">ip2location</a> for more details.</p>
 
 ```
 <?php
